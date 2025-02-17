@@ -1,53 +1,99 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wandb/wandb/508982e50e82c54cbf0dd464a9959fee0e1740ad/.github/wb-logo-lightbg.png#gh-light-mode-only" width="600" alt="Weights & Biases"/>
-  <img src="https://raw.githubusercontent.com/wandb/wandb/508982e50e82c54cbf0dd464a9959fee0e1740ad/.github/wb-logo-darkbg.png#gh-dark-mode-only" width="600" alt="Weights & Biases"/>
-</p>
+[![Click to access video lectures](https://i.imgur.com/OpDza8d.png)](https://wandb.me/m4ml-videos)
 
-# Weights & Biases AI Academy
+# Math for Machine Learning
 
-Welcome to the W&B AI Academy! This repository contains materials for learning AI, organized by topic. These materials are designed to complement our online courses but can also be useful on their own.
+This short course introduces the core concepts and intuitions
+of the three most important branches of mathematics
+for machine learning:
+linear algebra,
+calculus,
+and probability.
 
-## 🤖 Large Language Models (LLMs)
+These notebooks are supplementary to
+a [YouTube lecture series](https://www.youtube.com/watch?v=uZeDTwWcnuY&list=PLD80i8An1OEGZ2tYimemzwC3xqkU0jKUg)
+and presume proficiency with Python.
 
-| Course | Instructor | Description |
-|--------|------------|-------------|
-| 🆕 [RAG++](https://www.wandb.courses/courses/rag-in-production) | <b>Bharat Ramanathan</b><br><i>MLE @ W&B</i><br><br><b>Ayush Thakur</b><br><i>MLE @ W&B</i><br><br><b>Meor Amer</b><br><i>Developer Advocate @ Cohere</i><br><br><b>Charles Pierse</b><br><i>Head of Weaviate Labs</i> | Practical RAG techniques for engineers: production-ready solutions to optimize performance, cut costs, and enhance accuracy. |
-| 🆕 [Developer's guide to LLM prompting](https://www.wandb.courses/courses/prompting) | <b>Anish Shah</b><br><i>MLE @ W&B</i><br><br><b>Teodora Danilovic</b><br><i>Prompt Engineer @ AutogenAI</i> | Everything you need to get started with prompt engineering, from system prompts to model-specific strategies. |
-| [LLM Engineering: Structured Outputs](https://www.wandb.courses/courses/steering-language-models) | <b>Jason Liu</b><br><i>Independent Consultant</i> | Improve LLM engineering skills, learn about structured JSON output handling, function calling, and complex validations. |
-| [Building LLM-Powered Apps](https://www.wandb.courses/courses/building-llm-powered-apps) | <b>Darek Kłeczek</b><br><i>MLE @ W&B</i> <br><br><b>Bharat Ramanathan</b><br><i>MLE @ W&B</i> <br><br><b>Thomas Capelle</b><br><i>MLE @ W&B</i> <br><br><b>Shreya Rajpal</b><br><i>Creator of Guardrails AI</i> <br><br><b>Anton Troynikov</b><br><i>Co-Founder of Chroma</i> <br><br><b>Shahram Anver</b><br><i>Co-Creator of Rebuff</i> | Learn to build LLM-powered applications using LLM APIs, Langchain, and W&B LLM tooling. |
-| [Training and Fine-tuning LLMs](https://www.wandb.courses/courses/training-fine-tuning-LLMs) | <b>Darek Kłeczek</b><br><i>MLE @ W&B</i> <br><br><b>Ayush Thakur</b><br><i>MLE @ W&B</i> <br><br><b>Jonathan Frankle</b><br><i>Chief Scientist @ MosaicML</i> <br><br><b>Weiwei Yang</b><br><i>Principal SDE Manager @ Microsoft Research</i> <br><br><b>Mark Saroufim</b><br><i>PyTorch Engineer @ Meta</i> | Explore LLM architecture, training techniques, and fine-tuning methods, including LoRA and RLHF. |
-| [Evaluate and Debug Generative AI](http://wandb.me/eval-debugging-gen-ai) | <b>Carey Phelps</b><br><i>Founding Product Manager @ W&B</i> | Practice evaluating and debugging Generative AI work using the W&B AI Developer Platform. |
+The notebooks can be executed in any
+of the following ways.
 
-## 🚀 MLOps
+## Colab - Persistent One-Click Version
 
-| Course | Instructor | Description |
-|--------|------------|-------------|
-| [Model CI/CD](https://www.wandb.courses/courses/enterprise-model-management) | <b>Noa Schwartz</b><br><i>Product Manager @ W&B</i> <br><br><b>Darek Kłeczek</b><br><i>MLE @ W&B</i> <br><br><b>Hamel Husain</b><br><i>Founder @ Parlance Labs</i> | Overcome model chaos, automate workflows, ensure governance, and streamline the end-to-end model lifecycle. |
-| [Effective MLOps: Model Development](https://www.wandb.courses/courses/effective-mlops-model-development) | <b>Thomas Capelle</b><br><i>MLE @ W&B</i> <br><br><b>Darek Kłeczek</b><br><i>MLE @ W&B</i> <br><br><b>Hamel Husain</b><br><i>Founder @ Parlance Labs</i> | Learn to accelerate and scale model development, improve productivity, and ensure reproducibility. |
-| [CI/CD for Machine Learning (GitOps)](https://www.wandb.courses/courses/ci-cd-for-machine-learning) | <b>Hamel Husain</b><br><i>Founder @ Parlance Labs</i> | Streamline ML workflows using GitHub Actions and integrate W&B experiment tracking. |
-| [Data Validation in Production ML Pipelines](https://www.wandb.courses/courses/data-validation-for-machine-learning) | <b>Shreya Shankar</b><br><i>PhD student @ UC Berkeley</i> | Build robust production ML pipelines, detect data drift, and manage data quality. |
-| [ML for Business Decision Optimization](https://www.wandb.courses/courses/decision-optimization) | <b>Dan Becker</b><br><i></i> | Optimize business decisions and translate ML predictions into actionable insights. |
+| Notebook    | Link |
+|-------------|------|
+| Linear Algebra  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://wandb.me/m4ml-linalg-colab) |
+| Calculus  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://wandb.me/m4ml-calc-colab) |
+| Probability | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://wandb.me/m4ml-prob-colab) |
 
-## 📊 W&B Tools
+Click the badges in the table above to access the exercises as
+[Google Colab notebooks](https://research.google.com/colaboratory/).
+The only requirement is a Google account.
+If you save your work to your own Google Drive,
+you can return where you left off.
 
-| Course | Instructor | Description |
-|--------|------------|-------------|
-| [W&B 101](https://www.wandb.courses/courses/wandb-101) | <b>Scott Condron</b><br><i>MLE @ W&B</i> | Introduction to W&B with a focus on experiment tracking, visualization, and optimization. |
-| [W&B 201: Model Registry](https://www.wandb.courses/courses/201-model-registry) | <b>Ken Lee</b><br><i>MLE @ W&B</i> | Advanced model management using W&B for logging, registering, and managing ML models. |
+## Binder - Temporary One-Click Version
 
-## 🌍 International Courses
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wandb/edu/main?filepath=math-for-ml)
 
-| Course | Language | Description |
-|--------|----------|-------------|
-| [효율적인 MLOps: 모델 개발](https://www.wandb.courses/courses/effective-mlops-model-development-ko) | Korean | Comprehensive program on bringing ML models to life, optimizing performance, and preparing for primetime. |
-| [効果的なMLOps: モデル開発](https://www.wandb.courses/courses/effective-mlops-model-development-jp) | Japanese | Learn to accelerate and scale model development, improve productivity, and ensure reproducibility. |
+If you click the badge above,
+you'll launch a free cloud server
+provided by the
+[Binder project](https://mybinder.readthedocs.io/en/latest/)
+with the appropriate computational environment.
+There is no need to create an account.
+This environment is _ephemeral_,
+or temporary:
+after 10 minutes of inactivity,
+it will disappear.
+You'll be able to run the notebooks,
+but the only way to permanently save any work
+is to download the files to your machine.
+In order to continue from where you left off,
+you'd then need to re-upload the files to a new Binder instance.
 
-## 🏫 Resources for Educators
+This option is simple, sufficient for most purposes
+(the exercises are very short),
+and well-tested.
 
-- [Materials for Educators, TAs, and Students](https://github.com/wandb/edu/tree/main/edu_resources/)
+## Local Install -- Docker
 
-## 🧮 Math for ML
+If you'd like to run the materials locally,
+the best option is to use
+[Docker](https://docs.docker.com/get-docker/),
+one of the virtualization technologies
+on which Binder is based.
 
-- [Math refresher for Machine Learning](https://github.com/wandb/edu/tree/main/math-for-ml)
+After following the installation instructions for Docker,
+build the container with the command
+```
+docker build -t math-for-ml .
+```
+and then start it with the command
+```
+docker run -p 8888:8888 math-for-ml
+```
+Open a browser window and navigate to
+```
+localhost:8888
+```
+and enter, as the password, the token that appears after
+`?token` in the URLs printed to the terminal by Jupyter.
 
-For more information and to enroll in courses, visit the [W&B AI Academy website](https://wandb.courses).
+## Local Install -- pip/virtualenv
+
+If you are unfamiliar with or unable to use Docker,
+you can instead use `pip` to install the necessary packages.
+They are located in `requirements-local.txt`
+and can be installed with
+```
+pip install -r requirements-local.txt
+```
+Note that the requirements are very strictly versioned,
+to reduce bugs.
+It is highly recommended to use
+a virtual environment tool,
+like [virtualenv](https://virtualenv.pypa.io/en/latest/)
+or [pyenv](https://github.com/pyenv/pyenv)
+to set up a specific environment for use with these notebooks.
+In general, Python is best used with a virtual environment tool,
+so setting one up will brings large dividends for future projects!
+
