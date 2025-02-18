@@ -77,23 +77,3 @@ localhost:8888
 ```
 and enter, as the password, the token that appears after
 `?token` in the URLs printed to the terminal by Jupyter.
-
-## Local Install -- pip/virtualenv
-
-If you are unfamiliar with or unable to use Docker,
-you can instead use `pip` to install the necessary packages.
-They are located in `requirements-local.txt`
-and can be installed with
-```
-pip install -r requirements-local.txt
-```
-Note that the requirements are very strictly versioned,
-to reduce bugs.
-It is highly recommended to use
-a virtual environment tool,
-like [virtualenv](https://virtualenv.pypa.io/en/latest/)
-or [pyenv](https://github.com/pyenv/pyenv)
-to set up a specific environment for use with these notebooks.
-In general, Python is best used with a virtual environment tool,
-so setting one up will brings large dividends for future projects!
-
