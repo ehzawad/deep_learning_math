@@ -1,3 +1,0 @@
-okpy==1.15.0
-torchviz==0.0.1
-wandb
