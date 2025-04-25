@@ -16,20 +16,6 @@ and presume proficiency with Python.
 The notebooks can be executed in any
 of the following ways.
 
-## Colab - Persistent One-Click Version
-
-| Notebook    | Link |
-|-------------|------|
-| Linear Algebra  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://wandb.me/m4ml-linalg-colab) |
-| Calculus  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://wandb.me/m4ml-calc-colab) |
-| Probability | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://wandb.me/m4ml-prob-colab) |
-
-Click the badges in the table above to access the exercises as
-[Google Colab notebooks](https://research.google.com/colaboratory/).
-The only requirement is a Google account.
-If you save your work to your own Google Drive,
-you can return where you left off.
-
 ## Binder - Temporary One-Click Version
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wandb/edu/main?filepath=math-for-ml)
