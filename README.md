@@ -13,32 +13,6 @@ These notebooks are supplementary to
 a [YouTube lecture series](https://www.youtube.com/watch?v=uZeDTwWcnuY&list=PLD80i8An1OEGZ2tYimemzwC3xqkU0jKUg)
 and presume proficiency with Python.
 
-The notebooks can be executed in any
-of the following ways.
-
-## Binder - Temporary One-Click Version
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wandb/edu/main?filepath=math-for-ml)
-
-If you click the badge above,
-you'll launch a free cloud server
-provided by the
-[Binder project](https://mybinder.readthedocs.io/en/latest/)
-with the appropriate computational environment.
-There is no need to create an account.
-This environment is _ephemeral_,
-or temporary:
-after 10 minutes of inactivity,
-it will disappear.
-You'll be able to run the notebooks,
-but the only way to permanently save any work
-is to download the files to your machine.
-In order to continue from where you left off,
-you'd then need to re-upload the files to a new Binder instance.
-
-This option is simple, sufficient for most purposes
-(the exercises are very short),
-and well-tested.
 
 ## Local Install -- Docker
 
